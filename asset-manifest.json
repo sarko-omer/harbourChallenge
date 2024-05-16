@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/harbourChallenge/static/css/main.1d3ef372.css",
+    "main.js": "/harbourChallenge/static/js/main.d6829735.js",
+    "static/js/453.8e20f745.chunk.js": "/harbourChallenge/static/js/453.8e20f745.chunk.js",
+    "static/media/Group-21.png": "/harbourChallenge/static/media/Group-21.d0b5a126b00b24e0be4b.png",
+    "static/media/apercu_regular_pro.otf": "/harbourChallenge/static/media/apercu_regular_pro.36c9dd0f0eebc290890b.otf",
+    "static/media/apercu_bold_pro.otf": "/harbourChallenge/static/media/apercu_bold_pro.ec3d3ae9ddd965b6431a.otf",
+    "static/media/Pattern.png": "/harbourChallenge/static/media/Pattern.8b162bf08e9e8c2121f6.png",
+    "static/media/Image.png": "/harbourChallenge/static/media/Image.22cb8c180528d3e9280c.png",
+    "static/media/icon-img.png": "/harbourChallenge/static/media/icon-img.3ef1d7a1c77c8f0113d8.png",
+    "index.html": "/harbourChallenge/index.html",
+    "main.1d3ef372.css.map": "/harbourChallenge/static/css/main.1d3ef372.css.map",
+    "main.d6829735.js.map": "/harbourChallenge/static/js/main.d6829735.js.map",
+    "453.8e20f745.chunk.js.map": "/harbourChallenge/static/js/453.8e20f745.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3ef372.css",
+    "static/js/main.d6829735.js"
+  ]
+}
