@@ -1,0 +1,37 @@
+.aboutinfo{
+    width: 1036px;
+    height: 438px;
+    display: flex;
+    column-gap: 119px;
+
+}
+    .title {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: -0.6px;
+    }
+    .paragraph{
+        color: var(--secondary-color);
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image2 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+      }
+
+.about-info-right{}
+.about-info-left{}

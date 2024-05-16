@@ -1,0 +1,77 @@
+.slider-card{
+    /* to be deleted */
+    margin: 200px;
+        /* to be deleted */
+    width: 800px;
+    height: 460px;
+    border: 1px solid #E2E2E2;
+}
+
+
+.top-slider{
+    width: 798px;
+    height: 150px;
+    background-color: #ffffff;
+    padding: 40px 80px 0px 40px;
+}
+.bottom-slider{
+    width: 798px;
+    height: 308px;
+    background-color: #fbfbfb;
+}
+
+.slider-card-content-top{
+    width: 680px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content-top-left{
+    width: 340px;
+    height: 79px;
+    display: flex;
+    column-gap: 21px;
+    align-items: center;
+}
+
+.card-content-top-left .second{
+    height: 46px;
+}
+.card-content-top-left .second > h4 {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.card-content-top-left .second > p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 0px;
+
+}
+
+.slider-card-content-bottom{
+    width: 561px;
+    height: 192px;
+    margin: 0px 118px 64px 121px;
+    padding-top: 54px;
+    
+}
+
+.slider-card-content-bottom > h4{
+font-size: 26px;
+font-weight: 300;
+color: #6a6a6a;
+margin: 0px;
+padding: 100px px 0px 30px 0px;
+}
+.slider-card-content-bottom > p{
+font-size: 16px;
+font-weight: 300;
+color: var(--secondary-color);
+padding-top: 32px;
+}
+

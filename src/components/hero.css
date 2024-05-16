@@ -1,0 +1,177 @@
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    padding: 100px 0;
+
+
+}
+.left {
+width: 480px;
+height: 546px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+gap: 20px;
+}
+
+.left img {
+position: absolute;
+height: 206px;
+left: 340px;
+top: 287px;
+mix-blend-mode: normal;
+opacity: 0.5;
+z-index: -100;
+
+}
+
+.left .title {
+color: var(--primary-color);
+font-weight: 500;
+font-size: 48px;
+letter-spacing: -0.6px;
+}
+
+.paragraph-title{
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+.paragraph{
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.position-phrase{
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.position-phrase span{
+color: var(--secondary-color);
+font-size: 22px;
+font-weight: 300;
+
+}
+
+.card-border {
+    border: 2px solid #DADADA;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.right {
+display: flex;
+flex-direction: column;
+width: 480px;
+height: 546px;
+
+}
+
+.top-part{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.rightpart{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+.leftpart > h4{
+font-size: 18px;
+font-size: 500;
+color: black;
+opacity: 50%;
+margin-bottom: 0px;
+
+}
+.leftpart > p{
+margin-top: 10px;
+font-size: 27px;
+font-weight: 300;
+color: #535353;
+
+}
+.top-part img{
+width: 80px;
+height: 80px;
+}
+
+.middle-part{
+    width: 480px;
+    height: 150px;
+    margin-top: 25px;
+    padding:  0 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.middle-part p {
+    color: #685DC5;
+    letter-spacing: 0.14px;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+
+.bottom-part {
+    width: 480px;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+
+.bottom-part-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    width: 345px;
+    height: 150px;
+    margin: 40px 95px 40px 40px;
+}
+
+#title {
+    color: #685DC5;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 0px ;
+}
+
+#content {
+    color: #535353;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 0px;
+
+}
+
+.loc-dur-sta-end{
+    width: 69px;
+    height: 49px;
+}
+
+.hero > img {
+    object-fit: fill;
+    width: 500px;
+    height: 215px;
+    position: absolute;
+    top: 760px;
+    left: 765px;
+    z-index: -99;
+
+}
+
+

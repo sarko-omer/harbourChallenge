@@ -1,0 +1,160 @@
+
+
+.about {
+    margin-top: 72px;
+    margin-bottom: 170px;
+	width: 1040px;
+	height: 524px;
+	display : flex;
+    justify-content: center;
+	column-gap : 40px;
+}
+
+
+
+.card-border {
+    border: 2px solid #DADADA;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.about-left {
+	width : 320px;
+	height: 524px;
+    padding: 32px 27px;
+	
+}
+
+.left-inside{
+    width : 265px;
+	height: 461;
+}
+
+.about-content-title{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+.about-content-detail{
+    color: var(--gray-color);
+    font-size: 22px;
+    font-weight: 300;
+}
+.about-content-detail-small{
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.price-euro {
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+.left-divider{
+    width : 265px;
+	height: 1px;
+    background-color: var(--gray-color);
+    margin-top: 132px;
+    margin-bottom: 29px;
+}
+.right-divider{
+    width : 27px;
+	height: 1px;
+    background-color: var(--gray-color);
+      margin-top: -10px;
+      margin-bottom: 10px;
+}
+
+.about-left-bootom{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.about-right {
+	width : 680px;
+	height: 524px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	column-gap : 10px;
+	
+}
+
+
+.part-divider{
+    display: flex;
+	justify-content : space-between ;
+}
+
+.about-right-up-left {
+	width: 320px;
+	height: 274px;
+    padding: 32px 25px 40px 25px;
+
+}
+.about-total-content{
+    width: 270px;
+    height: 202px;
+  
+   
+}
+.about-total-content > h3 {
+font-size: 27px;
+font-weight: 300;
+color: var(--secondary-color);
+}
+
+.about-right-up-right {
+    width: 320px;
+	height: 274px;
+    padding: 32px 25px 40px 25px;
+
+}
+
+.hr-text {
+	font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+  
+.hr-text::before,
+.hr-text::after {
+    background-color: var(--gray-color);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .hr-text::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .hr-text::after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+
+
+.about-right-bottom{
+	width: 680px;
+	height: 178px;
+    padding-left: 32px;
+}
